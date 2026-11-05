@@ -1,0 +1,1 @@
+ALTER TABLE public.sales ADD COLUMN IF NOT EXISTS aluno_inativado_inadimplencia boolean NOT NULL DEFAULT false;

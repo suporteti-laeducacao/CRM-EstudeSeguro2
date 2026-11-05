@@ -1,0 +1,1 @@
+ALTER TABLE public.installments ADD COLUMN IF NOT EXISTS negativado_spc boolean NOT NULL DEFAULT false; ALTER TABLE public.installments ADD COLUMN IF NOT EXISTS negativado_spc_at timestamp with time zone;

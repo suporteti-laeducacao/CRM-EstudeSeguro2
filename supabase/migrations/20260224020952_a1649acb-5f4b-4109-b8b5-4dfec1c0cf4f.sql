@@ -1,0 +1,1 @@
+ALTER TABLE public.vendedores ADD COLUMN sunchat_user_id text;

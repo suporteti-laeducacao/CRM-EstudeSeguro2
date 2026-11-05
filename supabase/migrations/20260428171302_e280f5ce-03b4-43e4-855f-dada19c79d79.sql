@@ -1,0 +1,1 @@
+TRUNCATE TABLE public.lead_messages, public.lead_tasks, public.lead_notes, public.lead_history, public.leads RESTART IDENTITY;

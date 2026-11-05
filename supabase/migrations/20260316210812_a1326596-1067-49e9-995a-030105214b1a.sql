@@ -1,0 +1,2 @@
+ALTER TABLE public.installments DROP CONSTRAINT IF EXISTS installments_status_check;
+ALTER TABLE public.installments ADD CONSTRAINT installments_status_check CHECK (status = ANY (ARRAY['pending'::text, 'due_today'::text, 'overdue'::text, 'paid'::text, 'refunded'::text]));

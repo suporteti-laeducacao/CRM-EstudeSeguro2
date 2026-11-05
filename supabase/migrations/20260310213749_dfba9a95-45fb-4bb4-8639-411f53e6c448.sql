@@ -1,0 +1,1 @@
+ALTER TABLE public.contas_pagar ADD COLUMN mes_referencia text DEFAULT NULL;

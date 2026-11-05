@@ -1,0 +1,2 @@
+ALTER TABLE public.contas_pagar DROP CONSTRAINT IF EXISTS contas_pagar_recurrence_end_type_check;
+ALTER TABLE public.contas_pagar ADD CONSTRAINT contas_pagar_recurrence_end_type_check CHECK (recurrence_end_type IS NULL OR recurrence_end_type IN ('count','date','never'));

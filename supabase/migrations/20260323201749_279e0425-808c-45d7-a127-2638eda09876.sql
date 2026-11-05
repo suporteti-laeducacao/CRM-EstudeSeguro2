@@ -1,0 +1,1 @@
+DELETE FROM categorias_conta WHERE id = '8fec6d8a-0dde-44f0-a471-0c638d87934d';

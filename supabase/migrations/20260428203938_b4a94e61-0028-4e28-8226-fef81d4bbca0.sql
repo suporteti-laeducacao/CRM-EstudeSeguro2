@@ -1,0 +1,1 @@
+UPDATE public.leads SET status = 'novo' WHERE status = 'primeiro_contato';
